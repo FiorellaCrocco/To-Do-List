@@ -68,6 +68,9 @@ const Home = () => {
 								</>
 							);
 						})}
+						<p className="list-group-item list-group-item-info">
+							Cantidad de tareas: {lista.length}
+						</p>
 					</ul>
 				</div>
 			</div>
